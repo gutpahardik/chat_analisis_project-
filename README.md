@@ -1,7 +1,7 @@
  WhatsApp Chat Analyzer (Streamlit & Python)
 This is an end-to-end data analysis project developed to parse, process, and provide in-depth visualized analysis of exported WhatsApp chat logs. It operates as an interactive web application powered by Streamlit.
 
-💡 Project Highlights for Interviews
+ Project Highlights for Interviews
 This project demonstrates strong capabilities across several core technical domains:
 
 Aspect	Core Skills Demonstrated
@@ -10,8 +10,7 @@ Web App Development	Built a functional, interactive user interface using Streaml
 Data Analysis	Implemented functions for statistical analysis, including frequency counts (Counter), custom stopword filtering (stop_hinglish.txt), and URL/Emoji extraction.
 Data Visualization	Utilized matplotlib and seaborn to create various chart types (Time Series, Bar Charts, Heatmaps) for effective data storytelling.
 
-Export to Sheets
-✨ Key Features & Insights
+ Key Features & Insights
 The application provides a comprehensive analysis, which can be viewed for the 'Overall Chat' or filtered by any 'Selected User':
 
 1. Core Chat Statistics
@@ -44,7 +43,7 @@ Emoji Analysis: A pie chart and dataframe detailing the frequency and distributi
 4. Participant Analysis
 Most Busy Users (Group Level Only): Identifies the top communicators with a bar chart and displays a full dataframe showing the percentage contribution of every participant to the overall chat.
 
-⚙️ Technical Implementation Details
+ Technical Implementation Details
 The project is structured into three distinct, modular components:
 
 1. preprocessor.py (The Data Engine)
@@ -72,7 +71,7 @@ Handles file upload and user interaction logic (st.sidebar.selectbox, st.sidebar
 
 Manages the presentation layout using st.columns, st.title, and st.header.
 
-▶️ Installation and Setup
+ Installation and Setup
 Dependencies
 Ensure these libraries are listed in your requirements.txt:
 
@@ -86,13 +85,9 @@ emoji
 Steps to Run
 Clone the Repository:
 
-Bash
-
 git clone https://github.com/YourUsername/YourRepoName.git
 cd YourRepoName
 Install Libraries:
-
-Bash
 
 pip install -r requirements.txt
 Ensure stop_hinglish.txt: Place a text file named stop_hinglish.txt (containing custom stopwords, one per line) in your project root for accurate content analysis.
@@ -100,7 +95,4 @@ Ensure stop_hinglish.txt: Place a text file named stop_hinglish.txt (containing 
 Export Chat: Export your WhatsApp chat as a .txt file (WITHOUT MEDIA).
 
 Run the App:
-
-Bash
-
 streamlit run app.py
